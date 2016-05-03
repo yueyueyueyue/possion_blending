@@ -1,8 +1,8 @@
 % starter script for project 3
 DO_TOY = false;
-DO_BLEND = false;
+DO_BLEND = true;
 DO_MIXED  = false;
-DO_COLOR2GRAY = true;
+DO_COLOR2GRAY = false;
 
 if DO_TOY 
     toyim = im2double(imread('./samples/toy_problem.png')); 

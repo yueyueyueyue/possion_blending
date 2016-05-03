@@ -37,7 +37,7 @@ for k=1:c
         end
     end
     
-    v = lscov(A, b);
+    v = lscov(A, b);%A*v=b
     
     for i=1:length
         im_blend(y(i), x(i), k) = v(im2var(y(i), x(i)));
